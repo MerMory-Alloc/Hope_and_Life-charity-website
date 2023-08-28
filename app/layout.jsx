@@ -1,4 +1,9 @@
-import './styles/globals.css'
+import '@/styles/globals.css'
+import Nav from '@/components/Nav'
+import localFont from 'next/font/local'
+
+
+const prencipalFont = localFont({ src: '../public/assets/fonts/new.ttf' })
 
 
 export const metadata = {
@@ -9,8 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar">
-      <body>
-        {children}
+      <body >
+        <Nav font={prencipalFont.className} />
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   )
