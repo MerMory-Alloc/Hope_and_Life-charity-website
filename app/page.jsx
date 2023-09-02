@@ -1,4 +1,5 @@
 import GridHome from "@/components/GridHome/GridHome";
+import SecondSecHome from "@/components/SecondSecHome";
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
       <section className=" md:-mt-20 lg:-mt-32 ">
         <GridHome />
       </section>
-      
+      <section className="px-3">
+        <SecondSecHome />
+      </section>
     </div>
   )
 }
