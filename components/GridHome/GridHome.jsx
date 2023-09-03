@@ -33,11 +33,11 @@ const GridHome = () => {
                    </span>
                   </div>
               </FolderShapedItem>
-            <div className="w-[93%] bg-black rounded-[32px] mx-auto mt-2 mb-2 px-6  grid grid-cols-2">
+            <div className="w-[93%] bg-black rounded-[32px] mx-auto my-2 px-6  grid grid-cols-2 sm:grid-cols-[1.1fr_0.9fr]">
+            <div className="flex justify-center items-center text-right text-3xl text-white">ولا تهنوا ولا تحزنوا</div>
               <div className="flex justify-center items-center">
                 <Image src={smile} width={100}/>
               </div>
-              <div className="flex justify-center items-center text-right text-3xl text-white">وأنتم الأعلون</div>
             </div>
         </div>
 
@@ -90,10 +90,10 @@ const GridHome = () => {
                   strk_color={"stroke-qua"}/>
               </FolderShapedItem>
             <div className="w-[93%] bg-emerald-950 rounded-[32px] mx-auto mt-2 mb-2 py-4 px-6  grid grid-cols-[0.8fr_1.2fr] gap-x-2">
+            <div className="flex justify-end items-center text-right text-3xl text-ter">وأنتم الأعلون</div>
               <div className="flex justify-center items-center">
                 <Image src={heart} width={80}/>
               </div>
-              <div className="flex justify-end items-center text-right text-3xl text-ter">ولا تهنوا ولا تحزنوا</div>
             </div>
         </div>
     </div>
