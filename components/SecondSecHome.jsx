@@ -6,15 +6,18 @@ import sun from "@/public/assets/icons/sun.svg"
 
 const SecondSecHome = () => {
   return (
-    <div className=" w-full bg-qua flex flex-col items-center justify-center
+    <div className=" w-full bg-ter2 flex flex-col items-center justify-center
                      lg:gap-16 gap-12 px-8 md:px-16 py-20 rounded-3xl my-5 md:my-10 lg:my-20 text-emerald-950 
                      text-center z-0 max-w-[537px] md:max-w-[796px]
                      lg:max-w-[1042px] xl:max-w-7xl mx-auto ">
-        <div>
+        <div className="relative">
+            <p className="font-bold text-xl mb-2">قالَ اللهُ تعالى</p>
             <h2 
-                className="relative font-bold text-3xl md:text-4xl leading-loose 
-                            md:w-3/4 w-full mx-auto md:leading-relaxed ">
-                     "وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِم وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ وَمَن يُوقَ شُحَّ نَفْسِهِ فَأُولَٰئِكَ هُمُ الْمُفْلِحُونَْْ"
+                text="سورة الحشر - الآية 9"
+                className="relative font-bold text-3xl md:text-4xl leading-loose md:after:mr-2
+                            md:w-3/4 w-full mx-auto md:leading-relaxed after:text-lg md:after:static
+                            after:content-[attr(text)] after:absolute after:-bottom-8 after:left-0">
+                    "وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِم وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ وَمَن يُوقَ شُحَّ نَفْسِهِ فَأُولَٰئِكَ هُمُ الْمُفْلِحُونَْْ"
             </h2>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-8">

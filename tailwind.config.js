@@ -31,6 +31,7 @@ module.exports = {
         'pri': '#005544',
         'sec': '#043f2e',
         'ter': '#c8f168',
+        'ter2': '#c1e864',
         'qua': '#a1cd5c',
         'qua2': '#a5c759',
         'qui': '#1d5243',
