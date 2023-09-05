@@ -1,5 +1,6 @@
 import GridHome from "@/components/GridHome/GridHome";
 import SecondSecHome from "@/components/SecondSecHome";
+import ThirdSecHome from "@/components/ThirdSection/ThirdSecHome";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <section className="px-3">
         <SecondSecHome />
       </section>
+      <ThirdSecHome />
     </div>
   )
 }
