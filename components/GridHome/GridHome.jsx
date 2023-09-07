@@ -5,7 +5,7 @@ import poor_child from "@/public/assets/images/poorChild.jpg"
 import charity from "@/public/assets/images/charity.jpg"
 import smile from "@/public/assets/icons/smile.svg"
 import heart from "@/public/assets/icons/heart.svg"
-import FolderShapedItem from "./FolderShapedItem"
+import FolderShapedItem from "../FolderShapedItem"
 import BtnGrid from "./BtnGrid"
 
 

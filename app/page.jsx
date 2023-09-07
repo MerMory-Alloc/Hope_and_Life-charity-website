@@ -1,5 +1,6 @@
 import GridHome from "@/components/GridHome/GridHome";
 import JoinComunSection from "@/components/JoinComunSection";
+import MeetTeam from "@/components/MeetTeam";
 import SecondSecHome from "@/components/SecondSecHome";
 import ThirdSecHome from "@/components/ThirdSection/ThirdSecHome";
 
@@ -26,6 +27,7 @@ export default function Home() {
       </section>
       <ThirdSecHome />
       <JoinComunSection />
+      <MeetTeam />
     </div>
   )
 }
