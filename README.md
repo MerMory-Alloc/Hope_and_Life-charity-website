@@ -5,5 +5,5 @@ To do s:
  x ............. add queotes and do color ............ x
  3- add intractivity and dynamic data in section three
  4- changing the template photos
- 5- in between section four and five
+ 5- in between section four and five svg background
  

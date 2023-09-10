@@ -34,11 +34,13 @@ module.exports = {
         'ter2': '#c1e864',
         'qua': '#a1cd5c',
         'qua2': '#a5c759',
+        'qua3': '#bce463',
         'qui': '#1d5243',
         'qui2': '#275a4b',
         'ext': '#d1dcda',
         'ext2': '#b9c2c0',
-        'ext3': '#bdc4c3'
+        'ext3': '#bdc4c3',
+        'ext4': '#eaece2'
       }
     },
   },

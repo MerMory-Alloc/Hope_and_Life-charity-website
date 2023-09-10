@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <body className='relative '>
       <div className="z-0 absolute top-20 right-1/2  w-4/12 h-32  bg-lime-300 translate-x-2/4 blur-2xl opacity-20"></div>
         <Nav />
-        <main className='p-2 lg:px-16'>
+        <main className=''>
           {children}
         </main>
       </body>

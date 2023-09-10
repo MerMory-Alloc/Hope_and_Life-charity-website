@@ -1,3 +1,5 @@
+import Banner from "@/components/Banner";
+import Faq from "@/components/FAQSection/Faq";
 import GridHome from "@/components/GridHome/GridHome";
 import JoinComunSection from "@/components/JoinComunSection";
 import MeetTeam from "@/components/MeetTeam";
@@ -27,7 +29,12 @@ export default function Home() {
       </section>
       <ThirdSecHome />
       <JoinComunSection />
+      <div className="relative my-24  w-full h-[200px]">
+        <Banner classes={"bg-emerald-950 skew-y-1 text-white top-[35%] -translate-y-[35%]"}/>
+        <Banner classes={"bg-qua3 -skew-y-2 text-emerald-950 top-[75%] -translate-y-[75%]"}/>
+      </div>
       <MeetTeam />
+      <Faq />
     </div>
   )
 }
