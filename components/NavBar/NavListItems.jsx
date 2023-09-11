@@ -1,22 +1,36 @@
+"use client"
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 const NavListItems = () => {
+
+  const pathname = usePathname()
+  const navlinks = [
+    {path:"/", name:"الرئيسية"},
+    {path:"/about", name:"من نحن"},
+    {path:"/contact", name:"تواصل"},
+  ]
+
+  const linkStyle = {
+    padding:"18px 0px",
+  }
+
+  const currentLink = {
+    ...linkStyle,
+    borderBottom : "2px solid #005544",
+  }
+
   return (
-    <ul className={`hidden lg:grow lg:flex lg:justify-center lg:items-center lg:gap-10 text-emerald-950 font-medium text-lg`}>
-            <li className='border-b-2 border-pri py-5 after:content-["•"] after:mr-10'>
-              <Link href="/#">الرئيسية</Link>
-            </li>
-            <li className="py-5 after:content-['•'] after:mr-10">
-              <Link href="/#">من نحن</Link>
-            </li>
-            <li className="py-5">
-              <Link href="/#">تواصل</Link>
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+    <ul className={`hidden lg:ml-36 xl:ml-48  lg:grow lg:flex lg:justify-center lg:items-center lg:gap-14 text-emerald-950 font-medium text-lg`}>
+            {navlinks.map((link, index) => {
+              const isActive = pathname === link.path;
+              return (
+                <li key={index} className={`py-0.5 ${index === navlinks.length - 1 ? "" :"after:content-['•']"} after:pr-14`}>
+                  <Link href={link.path} style={isActive ? currentLink : linkStyle}>{link.name}</Link>
+                </li>
+              )
+            })}
     </ul>
   )
 }

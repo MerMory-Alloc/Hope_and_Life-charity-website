@@ -7,6 +7,7 @@ const Footer = () => {
     const btnStyle = {
       position: "static",
       width: "130px",
+      zIndex: "0",
     }
     const inDivStyle = {
         padding: "4px 8px 4px 4px",

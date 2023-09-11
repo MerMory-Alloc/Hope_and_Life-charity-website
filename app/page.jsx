@@ -16,7 +16,7 @@ export default function Home() {
         <p className="w-full md:w-3/4 mx-auto text-base sm:text-lg">
         نحن هنا لنقف إلى جانب الذين يواجهون التحديات، ولنمنحهم القوة والدعم الذي يحتاجونه لتجاوز الصعوبات. من خلال مؤسسة الأمل والحياة، نريد أن نبني جسرًا من الأمل يمتد بين القلوب الخيرة وأولئك الذين ينتظرون يد العون
         </p>
-        <div className="w-full md:w-3/5 lg:w-full  font-bold relative z-10 flex justify-center items-center flex-col lg:flex-row gap-4">
+        <div className="w-full md:w-3/5 lg:w-full  font-bold relative flex justify-center items-center flex-col lg:flex-row gap-4">
           <button className='bg-gray-200 w-4/5 lg:w-1/4 max-w-[333px] md:max-w-[270px] text-black p-4  rounded-full block'> تواصل معنا </button>
           <button className='bg-black w-4/5 lg:w-1/4 text-white p-4 max-w-[333px] md:max-w-[270px] rounded-full block'> تبرع الآن </button>
         </div>
