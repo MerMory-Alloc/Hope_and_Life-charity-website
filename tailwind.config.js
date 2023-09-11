@@ -30,6 +30,7 @@ module.exports = {
       colors: {
         'pri': '#005544',
         'sec': '#043f2e',
+        'sec2': '#043c2c',
         'ter': '#c8f168',
         'ter2': '#c1e864',
         'qua': '#a1cd5c',

@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import Nav from '@/components/NavBar/Nav'
+import Footer from '@/components/Footer'
 
 
 export const metadata = {
@@ -16,6 +17,9 @@ export default function RootLayout({ children }) {
         <main className=''>
           {children}
         </main>
+        <footer className='px-3 mx-auto'>
+          <Footer />
+        </footer>
       </body>
     </html>
   )
