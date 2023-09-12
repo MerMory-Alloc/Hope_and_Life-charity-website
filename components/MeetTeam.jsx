@@ -15,7 +15,7 @@ const MeetTeam = () => {
     }
   return (
     <section className="px-3 my-16 sm:my-20 max-w-[537px] md:max-w-[796px] relative
-    lg:max-w-[1042px] xl:max-w-7xl mx-auto text-black">
+    lg:max-w-7xl mx-auto text-black">
         <h2 className="w-full text-center text-4xl lg:text-5xl my-2 md:w-8/12 mx-auto">فريق العمل المخلص</h2>
         <p className="w-full md:w-1/2 text-center text-base sm:text-lg mb-12 mx-auto">
             فريق الشغف والتفاني، يجمع بين الخبرات والأفكار الإبداعية، مكرس لتقديم العون وتحقيق التغيير الإيجابي في حياة الآخرين

@@ -6,7 +6,7 @@ import MissionElement from "./MissionElement"
 const ThirdSecHome = () => {
   return (
     <section className="px-3 max-w-[537px] md:max-w-[796px]
-                        lg:max-w-[1042px] xl:max-w-7xl mx-auto">
+                        lg:max-w-7xl mx-auto">
         <div className="flex items-center justify-between my-8 lg:-mt-4">
             <h2 className="font-bold text-2xl sm:text-3xl">الحملات التبرعية المقامة حاليا</h2>
             <div className="flex items-center gap-2">

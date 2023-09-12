@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-sec2 flex flex-col items-center text-slate-200
     px-8 md:px-16 lg:px-20 pt-4 rounded-3xl mb-2 md:mb-4 gap-0
-    max-w-[537px] md:max-w-[796px] lg:max-w-[1042px] xl:max-w-7xl mx-auto">
+    max-w-[537px] md:max-w-[796px] lg:max-w-7xl mx-auto">
 
         <div className="w-full grid grid-cols-1 gap-4 md:gap-0 md:grid-cols-2  py-6 ">
             <div className="flex flex-col items-start justify-center gap-3

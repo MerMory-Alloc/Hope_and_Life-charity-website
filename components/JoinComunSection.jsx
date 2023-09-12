@@ -14,7 +14,7 @@ const JoinComunSection = () => {
 
   return (
     <section className="px-3 my-16 sm:my-20 max-w-[537px] md:max-w-[796px] relative
-                        lg:max-w-[1042px] xl:max-w-7xl mx-auto text-black">
+                        lg:max-w-7xl mx-auto text-black">
         <div className="w-full text-center text-3xl sm:text-4xl lg:text-5xl mt-4 md:w-8/12 mx-auto">
             إنضم لمجتمعنا من فاعلي الخير من أنحاء الوطن و كن جزءا من التغيير الإيجابي حيث أكثر من
         </div>

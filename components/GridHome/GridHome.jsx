@@ -10,11 +10,13 @@ import BtnGrid from "../BtnGrid"
 
 
 const GridHome = () => {
-  const backsStyle = {position: "absolute", top: "0", left: "0", zIndex: "O"}
-  const imgbackStyle = {...backsStyle, objectFit: "cover", height: "100%", filter: "brightness(70%)"}
+  const backsStyle = {position: "absolute", top: "0", left: "0", zIndex: "O", objectFit: "cover", height: "100%"}
+  const imgbackStyle = {...backsStyle, filter: "brightness(70%)"}
   return (
-    <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 lg:grid-rows-[minmax(475px,_auto)] z-0 max-w-[276px] sm:max-w-[537px] md:max-w-[796px] lg:max-w-[1042px] xl:max-w-7xl mx-auto">
-        <div className=" grid grid-cols-1 grid-rows-[minmax(350px,_auto)_minmax(125px,_auto)]  gap-y-px order-4 sm:order-1">
+    <div className="relative grid grid-cols-2 gap-2 lg:gap-4 md:grid-cols-4 lg:grid-cols-5 z-0  sm:max-w-[537px]
+                     md:max-w-[796px] lg:max-w-7xl mx-auto lg:grid-rows-[repeat(4,120px)]">
+        
+        <div className=" w-full h-[325px] sm:h-[350px] md:h-[275px] lg:h-[350px] order-3 md:order-1 lg:row-span-3 self-end">
               <FolderShapedItem direction="left" >
                 <Image src={green_backgroud} width="100%" style={backsStyle}/>
                 <BtnGrid 
@@ -27,31 +29,39 @@ const GridHome = () => {
                   back_arrow_color={"bg-ter"} 
                   arrow_color={"fill-sec"}
                   strk_color={"stroke-sec"}/>
-                  <div className="w-full text-white text-right  text-sm px-8 absolute top-1/4 ">
-                  <span className="font-bold text-7xl ">65%</span> <br/>
-                   <span className="opacity-60 ">من الأسر تعيش بأقل من الراتب القاعدي ومع التضخم الذي يسحقهم بشكل أكبر، فإنهم بحاجة إلى المساعدة
-                   </span>
+                  <div className="w-full text-white text-right  text-sm px-8 absolute top-[45px] sm:top-1/4 md:top-[25px] lg:top-1/4">
+                    <span className="font-bold text-7xl ">65%</span> <br/>
+                    <span className="opacity-60 ">من الأسر تعيش بأقل من الراتب القاعدي ومع التضخم الذي يسحقهم بشكل أكبر، فإنهم بحاجة إلى المساعدة
+                    </span>
                   </div>
               </FolderShapedItem>
-            <div className="w-[93%] bg-black rounded-[32px] mx-auto my-2 px-6  grid grid-cols-2 sm:grid-cols-[1.1fr_0.9fr]">
-            <div className="flex justify-center items-center text-right text-3xl text-white">ولا تهنوا ولا تحزنوا</div>
+        </div>
+
+
+        <div className="w-full h-[120px]  bg-black rounded-[32px] mx-auto my-2 lg:my-0 pl-2 pr-6 lg:order-6 
+                        grid grid-cols-2 md:grid-cols-[1.1fr_0.9fr] lg:grid-cols-2 md:self-end order-5">
+            <div className="flex justify-center items-center text-right text-2xl sm:text-3xl md:text-2xl xl:text-3xl text-white">
+              ولا تهنوا ولا تحزنوا</div>
               <div className="flex justify-center items-center">
                 <Image src={smile} width={100}/>
               </div>
             </div>
-        </div>
 
-        <div className="h-[350px] self-end order-1 sm:order-3 md:order-4 lg:order-2">
+
+        <div className="h-[325px] sm:h-[350px] md:h-[275px] lg:h-[350px] order-1  md:order-4 lg:order-2 lg:row-span-4 
+                        lg:self-end">
           <FolderShapedItem direction="left">
-            <Image src={poor_child} width="100%" style={imgbackStyle}/>
+            <Image src={poor_child} width="100%" style={{...imgbackStyle, objectPosition: "top"}}/>
             <div className="w-full text-white text-right text-2xl px-6 absolute bottom-8">
             نوفر لأكثر من 8000 طفل ملابس  و لوازم مدرسية جديدة كل عام
             </div>
           </FolderShapedItem>
         </div>
-        <div className=" h-[225px] w-[95%] bg-ext rounded-[32px] md:self-center lg:self-end lg:w-[93%] order-5
-                          mx-auto mt-2 mb-2 relative sm:order-5 md:order-2 lg:order-3 lg:row-span-1 xl:block
-                          md:col-span-1 sm:col-span-2 md:row-span-2 md:h-[300px] lg:h-[225px] lg:hidden">
+
+
+        <div className=" h-[225px] w-full bg-ext rounded-[32px]  order-7 md:order-2 lg:order-3
+                          mx-auto relative md:self-end md:top-1/2 lg:top-auto lg:row-span-4
+                          col-span-2 lg:col-span-1 md:h-[200px] lg:h-[240px]">
           <BtnGrid 
                   text={"انضم إلى مجتمعنا الآن"}
                   bottom_px={"bottom-[7px]"}
@@ -66,7 +76,9 @@ const GridHome = () => {
           انضم إلى أكثر من 5000 متطوع  
           </div>
         </div>
-        <div className="h-[350px] self-end order-2 sm:order-4 md:order-6 lg:order-4">
+
+
+        <div className="h-[325px] sm:h-[350px] md:h-[275px] lg:h-[350px] order-2  md:order-7 lg:order-4 lg:row-span-4 lg:self-end ">
           <FolderShapedItem direction="right" >
             <Image src={charity} width="100%" style={imgbackStyle}/>
             <div className="w-full text-white text-right text-2xl px-6 absolute bottom-8">
@@ -75,7 +87,9 @@ const GridHome = () => {
           </FolderShapedItem>
         </div>
         
-        <div className=" grid grid-cols-1 grid-rows-[350px_125px] order-3 sm:order-2 md:order-3 lg:order-5">
+
+
+        <div className="h-[325px] sm:h-[350px] md:h-[275px] lg:h-[350px] lg:self-end order-4 md:order-3 lg:order-5 lg:row-span-3">
               <FolderShapedItem direction="right" >
                 <Image src={helping_hand} width="100%" style={backsStyle}/>
                 <BtnGrid 
@@ -89,13 +103,19 @@ const GridHome = () => {
                   arrow_color={"fill-qua"}
                   strk_color={"stroke-qua"}/>
               </FolderShapedItem>
-            <div className="w-[93%] bg-emerald-950 rounded-[32px] mx-auto mt-2 mb-2 py-4 px-6  grid grid-cols-[0.8fr_1.2fr] gap-x-2">
-            <div className="flex justify-end items-center text-right text-3xl text-ter">وأنتم الأعلون</div>
+        </div>
+
+
+        <div className="w-full h-[120px] bg-emerald-950 rounded-[32px] mx-auto my-2 lg:my-0 py-4 pl-2 pr-6 lg:order-7
+                        grid grid-cols-[0.9fr_1.1fr] md:grid-cols-[1.1fr_0.9fr] lg:grid-cols-2 gap-x-2 order-6 md:self-end">
+              <div className="flex justify-end items-center text-right text-2xl sm:text-3xl md:text-2xl xl:text-3xl text-ter">
+                وأنتم الأعلون</div>
               <div className="flex justify-center items-center">
                 <Image src={heart} width={80}/>
               </div>
-            </div>
         </div>
+
+
     </div>
   )
 }

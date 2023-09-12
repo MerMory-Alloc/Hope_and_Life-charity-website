@@ -9,7 +9,7 @@ const SecondSecHome = () => {
     <div className=" w-full bg-ter2 flex flex-col items-center justify-center
                      lg:gap-16 gap-12 px-8 md:px-16 py-20 rounded-3xl my-5 md:my-10 lg:my-20 text-emerald-950 
                      text-center z-0 max-w-[537px] md:max-w-[796px]
-                     lg:max-w-[1042px] xl:max-w-7xl mx-auto ">
+                     lg:max-w-7xl mx-auto">
         <div className="relative">
             <p className="font-bold text-xl mb-2">قالَ اللهُ تعالى</p>
             <h2 

@@ -12,7 +12,7 @@ const Faq = () => {
         <div className="w-full bgagin flex flex-col items-center justify-center
                      lg:gap-16 gap-12 px-8 md:px-16 lg:px-20 py-20 rounded-3xl mb-10 mt-20  lg:mt-40
                      text-center z-0 max-w-[537px] md:max-w-[796px]
-                     lg:max-w-[1042px] xl:max-w-7xl mx-auto relative">
+                     lg:max-w-7xl mx-auto relative">
           <div className="w-[80px] h-[100px] grid place-items-center
                           absolute -top-[50px] right-1/2 translate-x-1/2 bg-ter rounded-[50%]">
               <Image src={question} width={70} style={imageStyle}/>
