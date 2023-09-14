@@ -19,7 +19,7 @@ const JoinComunSection = () => {
             إنضم لمجتمعنا من فاعلي الخير من أنحاء الوطن و كن جزءا من التغيير الإيجابي حيث أكثر من
         </div>
         <div className="w-full text-center text-[8rem] md:text-[10rem] lg:text-[12rem] my-2">
-            1000+
+            5000+
         </div>
         <div className="w-full text-center mb-4 flex flex-col items-center gap-4">
             <div className=" text-xl">

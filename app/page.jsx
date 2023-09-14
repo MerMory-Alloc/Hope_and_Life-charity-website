@@ -5,6 +5,7 @@ import JoinComunSection from "@/components/JoinComunSection";
 import MeetTeam from "@/components/MeetTeam";
 import SecondSecHome from "@/components/SecondSecHome";
 import ThirdSecHome from "@/components/ThirdSection/ThirdSecHome";
+import MissCont from "@/components/ThirdSection/MissCont";
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
       <section className="px-3">
         <SecondSecHome />
       </section>
-      <ThirdSecHome />
+      <ThirdSecHome> <MissCont /> </ThirdSecHome>
       <JoinComunSection />
       <div className="relative my-24  w-full h-[200px]">
         <Banner classes={"bg-emerald-950 skew-y-1 text-white top-[35%] -translate-y-[35%]"}/>
