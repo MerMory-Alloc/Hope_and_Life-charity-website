@@ -24,7 +24,7 @@ const MeetTeam = () => {
             <div>
                 <div className="w-[250px] h-[350px]">
                     <FolderShapedItem direction="left"> 
-                        <Image src={walter} style={imageStyle}/>
+                        <Image src={walter} style={imageStyle} alt="image of a person" placeholder ="blur"/>
                     </FolderShapedItem>
                 </div>
                 <div className="w-full pr-2 text-right text-3xl">
@@ -37,7 +37,7 @@ const MeetTeam = () => {
             <div>
                 <div className="w-[250px] h-[350px]">
                     <FolderShapedItem direction="left"> 
-                        <Image src={jesse} style={imageStyle}/>
+                        <Image src={jesse} style={imageStyle} alt="image of a person" placeholder ="blur"/>
                     </FolderShapedItem>
                 </div>
                 <div className="w-full pr-2 text-right text-3xl">
@@ -50,7 +50,7 @@ const MeetTeam = () => {
             <div>
                 <div className="w-[250px] h-[350px]">
                     <FolderShapedItem direction="left"> 
-                        <Image src={mike} style={imageStyle}/>
+                        <Image src={mike} style={imageStyle} alt="image of a person" placeholder ="blur"/>
                     </FolderShapedItem>
                 </div>
                 <div className="w-full pr-2 text-right text-3xl">
@@ -63,7 +63,7 @@ const MeetTeam = () => {
             <div>
                 <div className="w-[250px] h-[350px]">
                     <FolderShapedItem direction="left"> 
-                        <Image src={saul} style={imageStyle}/>
+                        <Image src={saul} style={imageStyle} alt="image of a person" placeholder ="blur"/>
                     </FolderShapedItem>
                 </div>
                 <div className="w-full pr-2 text-right text-3xl">

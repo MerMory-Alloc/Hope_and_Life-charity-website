@@ -18,7 +18,7 @@ const GridHome = () => {
         
         <div className=" w-full h-[325px] sm:h-[350px] md:h-[275px] lg:h-[350px] order-3 md:order-1 lg:row-span-3 self-end">
               <FolderShapedItem direction="left" >
-                <Image src={green_backgroud} width="100%" style={backsStyle}/>
+                <Image src={green_backgroud} alt="green background" placeholder="blur" width="100%" style={backsStyle}/>
                 <BtnGrid 
                   text={"تبرع الآن"}
                   bottom_px={"bottom-[14px]"}
@@ -51,7 +51,7 @@ const GridHome = () => {
         <div className="h-[325px] sm:h-[350px] md:h-[275px] lg:h-[350px] order-1  md:order-4 lg:order-2 lg:row-span-4 
                         lg:self-end">
           <FolderShapedItem direction="left">
-            <Image src={poor_child} width="100%" style={{...imgbackStyle, objectPosition: "top"}}/>
+            <Image src={poor_child} alt="poor childs" placeholder="blur" width="100%" style={{...imgbackStyle, objectPosition: "top"}}/>
             <div className="w-full text-white text-right text-2xl px-6 absolute bottom-8">
             نوفر لأكثر من 8000 طفل ملابس  و لوازم مدرسية جديدة كل عام
             </div>
@@ -80,7 +80,7 @@ const GridHome = () => {
 
         <div className="h-[325px] sm:h-[350px] md:h-[275px] lg:h-[350px] order-2  md:order-7 lg:order-4 lg:row-span-4 lg:self-end ">
           <FolderShapedItem direction="right" >
-            <Image src={charity} width="100%" style={imgbackStyle}/>
+            <Image src={charity} width="100%" style={imgbackStyle} alt="act of charity" placeholder="blur"/>
             <div className="w-full text-white text-right text-2xl px-6 absolute bottom-8">
             نتكفل بقوت العائلات الفقيرة و المحتاجة في جميع ارجاء الوطن
             </div>
@@ -91,7 +91,7 @@ const GridHome = () => {
 
         <div className="h-[325px] sm:h-[350px] md:h-[275px] lg:h-[350px] lg:self-end order-4 md:order-3 lg:order-5 lg:row-span-3">
               <FolderShapedItem direction="right" >
-                <Image src={helping_hand} width="100%" style={backsStyle}/>
+                <Image src={helping_hand} width="100%" style={backsStyle} alt="helping hands" placeholder="blur"/>
                 <BtnGrid 
                   text={"تعرف علينا أكثر"}
                   bottom_px={"bottom-[14px]"}

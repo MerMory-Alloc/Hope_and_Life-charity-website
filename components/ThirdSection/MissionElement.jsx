@@ -1,6 +1,33 @@
 import Image from "next/image"
 
 const MissionElement = ({mission}) => {
+
+    const convertImage = (w, h) => `
+    <svg width="${w}" height="${h}" xmlns="http://www.w3.org/2000/svg">
+
+      <!-- Animated gradient -->
+      <defs>
+        <linearGradient id="myGradient" gradientTransform="rotate(20)">
+          <stop offset="5%"  stop-color="#eee">
+            <animate attributeName="stop-color" values="#EEEEEE; #CCCCCC; #EEEEEE" dur="2s" repeatCount="indefinite"></animate>
+          </stop>
+          <stop offset="95%" stop-color="#aaa">
+            <animate attributeName="stop-color" values="#EEEEEE; #DDDDDD; #EEEEEE" dur="3s" repeatCount="indefinite"></animate>
+          </stop>
+        </linearGradient>
+      </defs>
+    
+      <!-- Shapes -->
+      <rect fill="url(#myGradient)" width="${w}" height="${h}" />
+      
+    </svg>`;
+
+    const toBase64 = (str) =>
+    typeof window === 'undefined'
+      ? Buffer.from(str).toString('base64')
+      : window.btoa(str);
+
+
     const imageStyle = {
         width: "100%",
         height: "250px",
@@ -18,7 +45,8 @@ const MissionElement = ({mission}) => {
 
   return (
     <div className=" flex flex-col items-center justify-between w-[350px] p-4 rounded-3xl border-2 border-gray-100">
-        <Image src={mission.image_url} width={300} height={250} style={imageStyle}/>
+        <Image src={mission.image_url} alt={mission.title} placeholder="blur"  blurDataURL={`data:image/svg+xml;base64,${toBase64(convertImage(700, 700))}`}
+               width={300} height={250} style={imageStyle}/>
         <div className="w-full self-end ">
             <h3 className="font-bold text-2xl text-right w-full">{mission.title}</h3>
             <p className="text-base text-right w-full truncate my-1 text-thin text-neutral-700">
