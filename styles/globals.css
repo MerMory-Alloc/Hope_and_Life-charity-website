@@ -208,3 +208,18 @@ hr {
   margin-bottom: 1rem;
 }
 
+.banner_animation {
+    position: relative;
+    top:0;
+    right: 0;
+  	animation: scroll 5s linear 1s infinite;
+}
+
+.b_reverse .banner_animation {
+  animation-direction: reverse;
+}
+
+@keyframes scroll {
+	100% { right: -490px; }  /* top is the number of spans (in this case 8) multiplied by span height (45px as described above)*/
+}
+
