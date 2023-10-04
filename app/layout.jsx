@@ -2,6 +2,8 @@ import '@/styles/globals.css'
 import Nav from '@/components/NavBar/Nav'
 import Footer from '@/components/Footer'
 
+import Script from 'next/script'
+
 
 export const metadata = {
   title: 'الجمعية الخيرية للأمل و الحياة',
@@ -20,6 +22,9 @@ export default function RootLayout({ children }) {
         <footer className='px-3 mx-auto'>
           <Footer />
         </footer>
+        <Script
+          src="https://kit.fontawesome.com/b2eef88262.js"
+        />
       </body>
     </html>
   )

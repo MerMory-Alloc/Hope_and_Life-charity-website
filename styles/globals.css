@@ -46,8 +46,165 @@
  
  }
 
+ :root {
+     --lightergray: transparent;
+     --lightgreybl: #043c2c;
+     --brownich : #005544;
+     --blueich : black;
+     --whitich : #ffffff;
+ }
+
 body {
     font-family: new;
     background-color: white;
     box-sizing: border-box;
 }
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  width:100%;
+}
+
+form {
+
+  
+}
+
+.form-control, textarea {
+  width: 100%;
+  background-color: var(--lightergray);
+  color:var(--blueich);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--lightgreybl);
+  border-radius: 0.4rem;
+  outline: none;
+  resize: none;
+}
+
+.form-control:focus, textarea:focus{
+  border:2px solid var(--brownich);
+}
+
+.send-button {
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+  background-color: var(--lightgreybl);
+  border: none;
+  color: var(--whitich);
+  border-radius: 0.4rem;
+}
+
+.send-button:hover{
+  cursor: pointer;
+  background-color: var(--brownich);
+}
+
+.direct-contact-container {
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+}
+
+.list-item {
+  line-height: 4;
+  color: var(--lightgreybl);
+}
+
+.contact-text {
+  color: var(--lightgreybl);
+}
+
+
+.contact-text a {
+  color: var(--lightgreybl);
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: var(--brownich);
+  text-decoration: none;
+}
+
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.social-media-list li a {
+  color: var(--whitich);
+}
+
+.social-media-list li {
+  font-size: 1.5rem;
+  position: relative;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin: 1rem 1rem;
+  line-height: 80px;
+  border-radius: 50%;
+  color: var(--whitich);
+  background-color: var(--lightgreybl);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px var(--brownich);
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: var(--brownich);
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: var(--whitich);
+}
+
+.copyright {
+  color: var(--lightgreybl);
+  opacity: 0.8;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+hr {
+  border-color: var(--lightgreybl);
+  opacity: 0.2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
