@@ -34,21 +34,21 @@ const JoinComunSection = () => {
                 </div>
             </Link>
         </div>
-        <div className="hidden absolute 
+        <div className="hidden absolute image_1_in_joion_section_animation
                         md:inline-block  md:top-[5rem] md:left-[10px] md:w-[120px] md:h-[160px]
                         lg:top-[3rem] lg:left-[25px] lg:w-[140px] lg:h-[180px]">
-            <Image src={kid1} style={imageStyle} alt="image of a child" placeholder ="blur"/>
+            <Image src={kid1} style={imageStyle} alt="image of a child" placeholder ="blur" className=""/>
         </div>
         <div className="hidden md:inline-block absolute md:-bottom-[1rem] md:left-[70px] md:w-[140px] md:h-[140px]
-                        lg:-bottom-[1rem] lg:left-[100px] lg:w-[160px] lg:h-[160px]">
+                        lg:-bottom-[1rem] lg:left-[100px] lg:w-[160px] lg:h-[160px] image_2_in_joion_section_animation">
             <Image src={man} style={imageStyle} alt="image of a man" placeholder ="blur"/>
         </div>
         <div className="hidden md:inline-block absolute md:top-[5.25rem] md:right-[10px] md:w-[110px] md:h-[110px]
-                        lg:top-[3.5rem] lg:right-[25px] lg:w-[130px] lg:h-[130px]">
+                        lg:top-[3.5rem] lg:right-[25px] lg:w-[130px] lg:h-[130px] image_3_in_joion_section_animation">
             <Image src={kid3} style={imageStyle} alt="image of a child" placeholder ="blur"/>
         </div>
         <div className="hidden md:inline-block absolute md:bottom-[3rem] md:right-[70px] md:w-[120px] md:h-[160px]
-                        lg:bottom-[4rem] lg:right-[90px] lg:w-[140px] lg:h-[180px]">
+                        lg:bottom-[4rem] lg:right-[90px] lg:w-[140px] lg:h-[180px] image_4_in_joion_section_animation">
             <Image src={kid2} style={imageStyle} alt="image of a child" placeholder ="blur"/>
         </div>
     </section>

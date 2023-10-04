@@ -212,7 +212,7 @@ hr {
     position: relative;
     top:0;
     right: 0;
-  	animation: scroll 5s linear 1s infinite;
+  	animation: scroll 10s linear 1s infinite;
 }
 
 .b_reverse .banner_animation {
@@ -220,6 +220,56 @@ hr {
 }
 
 @keyframes scroll {
-	100% { right: -490px; }  /* top is the number of spans (in this case 8) multiplied by span height (45px as described above)*/
+	100% { right: -490px; } 
 }
+
+
+.image_1_in_joion_section_animation {
+  animation: moveX 2.5s linear 0s infinite alternate, moveY 2.8s linear 0s infinite alternate;
+}
+
+@keyframes moveX {
+  from { left: 25px; } to { left: 35px; }
+}
+
+@keyframes moveY {
+  from { top: 3rem; } to { top: 3.5rem; }
+}
+
+.image_2_in_joion_section_animation {
+  animation: moveX2 1.8s linear 0s infinite alternate, moveY2 2s linear 0s infinite alternate;
+}
+
+@keyframes moveX2 {
+  from { left: 100px; } to { left: 115px; }
+}
+
+@keyframes moveY2 {
+  from { bottom: -1rem; } to { bottom: -1.5rem; }
+}
+
+.image_3_in_joion_section_animation {
+  animation: moveX3 2s linear 0s infinite alternate, moveY3 2.2s linear 0s infinite alternate;
+}
+
+@keyframes moveX3 {
+  from { right: 25px; } to { right: 35px; }
+}
+
+@keyframes moveY3 {
+  from { top: 3.5rem; } to { top: 4rem; }
+}
+
+.image_4_in_joion_section_animation {
+  animation: moveX4 1.8s linear 0s infinite alternate, moveY4 .5s linear 0s infinite alternate;
+}
+
+@keyframes moveX4 {
+  from { right: 90px; } to { right: 100px; }
+}
+
+@keyframes moveY4 {
+  from { bottom: 4rem; } to { bottom: 4.5rem; }
+}
+
 
