@@ -10,12 +10,12 @@ const About = () => {
       <div className="pt-16 pb-8 md:pt-20">
         <div className="flex flex-col items-start gap-14">
           <div className="flex max-w-[592px] flex-col items-start gap-4 lg:gap-6 ">
-            <h2 className="font-bold text-3xl md:text-5xl">حول الجمعية</h2>
-            <p className="flex-col text-slate-700 max-[479px]:text-sm">
+            <h2 className="font-bold text-3xl md:text-5xl about_title">حول الجمعية</h2>
+            <p className="flex-col text-slate-700 max-[479px]:text-sm about_text">
             تأسست جمعية "الأمل والحياة" في ٢٠٢٣ مع التفاني والالتزام الشديدين لتحقيق تأثير إيجابي على حياة الأشخاص المحتاجين. مقرنا الرئيسي يقع في سفيزف بولاية سيدي بلعباس، ولكن مهمتنا لا تعرف حدودًا.
             </p>
           </div>
-          <div className="grid place-items-start gap-8 grid-cols-1 lg:grid-cols-2">
+          <div className="grid place-items-start gap-8 grid-cols-1 lg:grid-cols-2 about_img">
             <Image src={macta} alt="" className="inline-block h-full w-full max-w-full object-cover rounded-2xl" />
             <div className="flex w-full flex-col items-start gap-5 border border-solid border-black p-20 rounded-2xl">
               <h2 className="font-bold text-3xl md:text-5xl">مهمتنا</h2>

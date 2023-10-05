@@ -2,13 +2,14 @@ import Image from "next/image"
 
 const Cotact = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-8 lg:gap-20 py-12 px-3
+    <div className="flex flex-col items-center justify-center gap-8 lg:gap-20 py-12 px-3 contact_container
                    max-w-[537px] md:max-w-[796px] lg:max-w-7xl mx-auto lg:pt-20">
-      <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold  leading-tight text-center px-4 md:w-3/4 lg:w-1/2'>
+      <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold  leading-tight text-center px-4 
+                     md:w-3/4 lg:w-1/2 contact_title'>
       تواصل معنا وتابعنا على مختلف الوسائل التواصل الإجتماعية
       </h2>     
 
-      <div className="contact-wrapper gap-8 lg:grid-cols-2 lg:gap-12 ">
+      <div className="contact-wrapper gap-8 lg:grid-cols-2 lg:gap-12 contact_img">
 
       <form className="email-form">
               <input type="text" className="form-control" id="name" placeholder="الإسم الكامل" name="name"  required />
