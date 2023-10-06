@@ -30,9 +30,9 @@ const Footer = () => {
                             md:border-0 md:pb-0">
                 <div className="flex items-center gap-2">
                     <Image src={logoG} width={60}/>
-                    <h2 className="block text-2xl font-sulas font-bold text-white">الجمعية الخيرية للأمل و الحياة</h2>
+                    <h2 className="block text-2xl font-sulas font-bold text-white"> الجمعية الخيرية الولائية الأمل و الحياة</h2>
                 </div>
-                <p className="font-thin  text-sm"> الموقع الرسمي الخاص بالجمعية الخيرية للأمل و الحياة</p>
+                <p className="font-thin  text-sm"> الموقع الرسمي الخاص بالجمعية الخيرية الولائية الأمل و الحياة</p>
             </div>
 
             <div className="grid grid-cols-3 place-items-start md:place-items-end
