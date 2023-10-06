@@ -24,16 +24,16 @@ const Cotact = () => {
         <div className="direct-contact-container">
 
         <ul className="contact-list w-max mx-auto">
-          <li className="list-item "><i className="fa fa-map-marker fa-2x"></i><span className="contact-text place text-xl mr-2"> ولاية سيدي بلعباس، الجزائر </span></li>
+          <li className="list-item "><i className="fa fa-map-marker fa-2x"></i><span className="contact-text place text-lg sm:text-xl mr-2"> ولاية سيدي بلعباس، الجزائر </span></li>
 
-          <li className="list-item"><i className="fa fa-phone fa-2x"></i><span className="contact-text phone text-2xl mr-2"><a href="tel:2131111111111" title="تكلم معنا">0651234567</a></span></li>
+          <li className="list-item"><i className="fa fa-phone fa-2x"></i><span className="contact-text phone text-xl  sm:text-2xl mr-2"><a href="tel:2131111111111" title="تكلم معنا">0651234567</a></span></li>
 
-          <li className="list-item"><i className="fa fa-envelope fa-2x"></i><span className="contact-text gmail text-xl mr-2"><a href="mailto:hope_life.charity@gmail.com" title="أرسل إيمايل">hope_life.charity@gmail.com</a></span></li>
+          <li className="list-item"><i className="fa fa-envelope fa-2x"></i><span className="contact-text gmail text-lg sm:text-xl mr-2"><a href="mailto:hope_life.charity@gmail.com" title="أرسل إيمايل">hope_life.charity@gmail.com</a></span></li>
 
         </ul>
 
         <hr />
-        <ul className="social-media-list">
+        <ul className="social-media-list flex-wrap">
           <a href="https://github.com/MerMory-Alloc" target="_blank" className="contact-icon"><li>
             <i className="fa fa-instagram " aria-hidden="true"></i>
           </li></a>
