@@ -8,6 +8,8 @@ The design for this website was inspired by the work of Odama Studio, which you 
 
 ## About This Project
 
+- **Link:** you can visit the website [here](https://hope-and-life-charity-website.vercel.app/)
+
 - **Objective:** This project demonstrates the process of building a charity website using Next.js and provides a practical example of how such a website could be structured and designed.
 
 - **Potential Future Use:** If "Hope and Life" Charity grows in the future and requires an official website, the work done here can serve as a foundation and reference point for building the real thing.
