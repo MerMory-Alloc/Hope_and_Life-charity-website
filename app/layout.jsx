@@ -22,9 +22,7 @@ export default function RootLayout({ children }) {
         <footer className='px-3 mx-auto'>
           <Footer />
         </footer>
-        <Script
-          src="https://kit.fontawesome.com/b2eef88262.js"
-        />
+        <Script src="https://kit.fontawesome.com/b2eef88262.js"/>
       </body>
     </html>
   )

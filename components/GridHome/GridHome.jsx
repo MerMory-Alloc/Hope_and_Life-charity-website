@@ -14,9 +14,9 @@ const GridHome = () => {
   const imgbackStyle = {...backsStyle, filter: "brightness(70%)"}
   return (
     <div className="relative grid grid-cols-2 gap-2 lg:gap-4 md:grid-cols-4 lg:grid-cols-5 z-0  sm:max-w-[537px]
-                     md:max-w-[796px] lg:max-w-7xl mx-auto lg:grid-rows-[repeat(4,120px)]">
+                     md:max-w-[796px] lg:max-w-7xl mx-auto lg:grid-rows-[repeat(4,120px)] slide_in_bottom2 delay_5s">
         
-        <div className=" w-full h-[325px] sm:h-[350px] md:h-[275px] lg:h-[350px] order-3 md:order-1 lg:row-span-3 self-end">
+        <div className="w-full h-[325px] sm:h-[350px] md:h-[275px] lg:h-[350px] order-3 md:order-1 lg:row-span-3 self-end">
               <FolderShapedItem direction="left" >
                 <Image src={green_backgroud} alt="green background" placeholder="blur" width="100%" style={backsStyle}/>
                 <BtnGrid 
