@@ -1,8 +1,8 @@
-# "Hope and Life" Charity Website (Practice Project)
+# "Hope and Life" Charity Website
 
 ![Charity Logo](public/assets/images/logoG.png)
 
-Welcome to the "Hope and Life" Charity's website repository. This project was created as a practice exercise using Next.js. While the website itself is not associated with the charity, it showcases how such a website could look and function. 
+Welcome to the "Hope and Life" Charity's website repository. This project was created using Next.js to contribute to the charity online presence that unfortunately the plan for this  got canceled .the website itself is not associated with the charity yet but it showcases how such a website could look and function. 
 
 The design for this website was inspired by the work of Odama Studio, which you can find [here](https://dribbble.com/odamastudio). Specifically, it's based on the design available [here](https://dribbble.com/shots/20849261-Pracima-Donation-Landing-Page).
 
